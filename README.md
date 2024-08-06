@@ -1,1 +1,2 @@
-# AtkesonBursteinCanonical
+# Replication of Atkeson and Burstein (2008)
+This repository solves for markups and market shares of preferences used in Atkeson and Burstein (2008). I provide both a JAX and a Julia implementation. Both JAX and Julia implementations are parallelized / multi-threaded. The Julia implementation is slightly faster. The Trust Region implementation is by far dominates iterative approaches in terms of speed.
